@@ -20,7 +20,7 @@
       die('Ocorreu um erro ao enviar seu email, tente novamente. Também pode nos seguir no Instagram.');
     } else {
       echo "Obrigado! Vamos avisar-te, quando tudo estiver pronto.";
-      header( "refresh:2;url=/index.html" );
+      header ("location: https://www.instagram.com/atelie.amorempano/");
     }
   }
 ?>
